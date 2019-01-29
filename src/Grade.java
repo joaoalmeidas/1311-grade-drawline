@@ -14,5 +14,11 @@ public class Grade extends JPanel{
 			
 		}
 		
+		for(int y = 0; y < getHeight(); y += getHeight()/8) {
+			
+			g.drawLine(0, y, getWidth(), y);
+			
+		}
+		
 	}
 }
